@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table tags</title>
+</head>
+<body>
+    <table border="2">
+        <caption>table</caption>
+        <tr>
+            <th>sun</th>
+            <th>mon</th>
+            <th>thue</th>
+            <th>wen</th>
+        </tr>
+
+        <tr>
+            <td>data 1</td>
+            <td>data 2</td>
+            <td>data 3</td>
+            <td>data 4</td>
+        </tr>
+        <tr>
+            <td>data 5</td>
+            <td>data 6</td>
+            <td>data 7</td>
+            <td>data 8</td>
+        </tr>
+    </table>
+    
+    <table border="2">
+        <caption>colspan</caption>
+        <tr>
+            <th>sun</th>
+            <th>mon</th>
+            <th>thue</th>
+            <th>wen</th>
+        </tr>
+
+        <tr>
+            <td>data 1</td>
+            <td>data 2</td>
+            <td colspan="2">data 3</td>
+        </tr>
+        <tr>
+            <td colspan="2">data 5</td>
+            <td>data 7</td>
+            <td>data 8</td>
+        </tr>
+    </table>
+
+    <table border="2">
+        <caption>rowspan</caption>
+        <tr>
+            <th rowspan="3">sun</th>
+            <th>mon</th>
+            <th rowspan="3">thue</th>
+            <th>wen</th>
+        </tr>
+
+        <tr>
+            <td>data 2</td>
+            <td>data 4</td>
+        </tr>
+        <tr>
+            <td>data 6</td>
+            <td>data 8</td>
+        </tr>
+    </table>
+    
+    
+</body>
+</html>
